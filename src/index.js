@@ -8,21 +8,16 @@ const createRoomRoute = require('./routes/createRoom.route');
 const joinRoomRoute = require('./routes/joinRoom.route');
 const guessLetterRoute = require('./routes/guessLetter.route');
 const newWordRoute = require('./routes/newWord.route');
-const createGameRoute = require('./routes/createGame.route'); // Add this line
+const createGameRoute = require('./routes/createGame.route'); 
 
 
 require('dotenv').config();
 require('./db/index.db');
 const PORT = process.env.PORT || 8080;
 
-// app.get('/ping', (req, res) => {
-//     res.send('PONG');
-// });
-
 app.use(bodyParser.json());
 app.use(cors());
 app.use('/auth', AuthRouter);
-app.use('/products', ProductRouter);
 app.use('/rooms',createRoomRoute);
 app.use('/rooms', joinRoomRoute);
 app.use('/rooms', guessLetterRoute);
