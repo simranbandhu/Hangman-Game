@@ -5,17 +5,15 @@ This is a backend implementation of the Hangman game using JavaScript, Express, 
 ## Project Description
 
 ### Welcome & Basic Auth
-- Allow simple user account creation with username and password (secure storage is essential).
+- Allow simple user account creation with name, email and password.
 - A very basic login mechanism (for testing purposes, full-featured authentication can be a bonus).
 
 ### Game Rooms: The Core of the Action
-- Design a system where one player creates a game room with a unique ID.
+- A system where one player creates a game room with a unique ID.
 - Enable other players to join the room using the ID.
-- Optional: Allow room creators to set passwords for added privacy.
 
 ### Classic Hangman with a Multiplayer Twist
-- **Word Selection**: Decide if players type in words (and implement dictionary API validation) or if the system generates random words.
-- **Turn-Based**: Cycle through players in a room, giving each a turn to be the "word master."
+- **Word Selection**: Player can type or generate word from the system
 - **Guessing & Tracking**: Handle single letter guesses, track the hidden word state, and manage the number of incorrect guesses allowed.
 
 ## Table of Contents
