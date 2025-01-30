@@ -62,8 +62,8 @@ npm run dev
         "password": "password"
     }
     ```
-![signup_player1][https://github.com/simranbandhu/Hangman-Game/blob/main/public/signup_player1.png]
-![signup_player2][https://github.com/simranbandhu/Hangman-Game/blob/main/public/signup_player2.png]
+![signup_player1](https://github.com/simranbandhu/Hangman-Game/blob/main/public/signup_player1.png)
+![signup_player2](https://github.com/simranbandhu/Hangman-Game/blob/main/public/signup_player2.png)
 
 - POST /auth/signup - Login
     - Request Body:
@@ -73,8 +73,8 @@ npm run dev
         "password": "password"
     }
     ```
-![login_player1][https://github.com/simranbandhu/Hangman-Game/blob/main/public/login_player1.png]
-![login_player2][https://github.com/simranbandhu/Hangman-Game/blob/main/public/login_player2.png]
+![login_player1](https://github.com/simranbandhu/Hangman-Game/blob/main/public/login_player1.png)
+![login_player2](https://github.com/simranbandhu/Hangman-Game/blob/main/public/login_player2.png)
 
 - POST /rooms/create-room - Create a new room
     - Request Body:
@@ -83,7 +83,7 @@ npm run dev
         "roomName": "exampleRoom"
     }
     ```
-![Create_Room][https://github.com/simranbandhu/Hangman-Game/blob/main/public/create_room.png]
+![Create_Room](https://github.com/simranbandhu/Hangman-Game/blob/main/public/create_room.png)
 
 
 - POST /games/create-game - Create a new game
@@ -93,7 +93,7 @@ npm run dev
         "roomName": "exampleRoom"
     }
     ```
-![Create_Game][https://github.com/simranbandhu/Hangman-Game/blob/main/public/create-game.png]
+![Create_Game](https://github.com/simranbandhu/Hangman-Game/blob/main/public/create-game.png)
 
 
 - POST /rooms/join-room - Join an existing room
@@ -103,7 +103,7 @@ npm run dev
         "roomName": "exampleRoom"
     }
     ```
-![Join_Room][https://github.com/simranbandhu/Hangman-Game/blob/main/public/join_room.png]
+![Join_Room](https://github.com/simranbandhu/Hangman-Game/blob/main/public/join_room.png)
 
 - POST /rooms/new-word - Set a new word for the game by user
     - Request Body:
@@ -114,7 +114,7 @@ npm run dev
         "useRandomWord": false
     }
     ```
-![New_Word_User][https://github.com/simranbandhu/Hangman-Game/blob/main/public/newWord_by_user.png]
+![New_Word_User](https://github.com/simranbandhu/Hangman-Game/blob/main/public/newWord_by_user.png)
 
 - POST /rooms/new-word - Set a new word for the game by Random Generated function
     - Request Body:
@@ -124,7 +124,7 @@ npm run dev
         "useRandomWord": true
     }
     ```
-![New_Word_Random][https://github.com/simranbandhu/Hangman-Game/blob/main/public/newWord_by_Random.png]
+![New_Word_Random](https://github.com/simranbandhu/Hangman-Game/blob/main/public/newWord_by_Random.png)
 
 - POST /rooms/guess-letter - Guess a letter in the game
     - Request Body:
@@ -134,9 +134,9 @@ npm run dev
         "letter": "a"
     }
     ```
-![Guess_Word1][https://github.com/simranbandhu/Hangman-Game/blob/main/public/guess_word1.png]
+![Guess_Word1](https://github.com/simranbandhu/Hangman-Game/blob/main/public/guess_word1.png)
 
-![Guess_Word2][https://github.com/simranbandhu/Hangman-Game/blob/main/public/guess_word2.png]
+![Guess_Word2](https://github.com/simranbandhu/Hangman-Game/blob/main/public/guess_word2.png)
 
 
 ## WebSocket
