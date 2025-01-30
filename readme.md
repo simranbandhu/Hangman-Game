@@ -136,6 +136,14 @@ npm run dev
 
 ![Guess_Word2](https://github.com/simranbandhu/Hangman-Game/blob/main/public/guess_word2.png)
 
+- Database - Password stored in the hash format using bcrypt
+
+![Database](https://github.com/simranbandhu/Hangman-Game/blob/main/public/db_users.png)
+
+![Database Game](https://github.com/simranbandhu/Hangman-Game/blob/main/public/db_games.png)
+
+
+
 
 ## WebSocket
 
