@@ -61,7 +61,7 @@ npm run dev
     }
     ```
 ![signup_player1](https://github.com/simranbandhu/Hangman-Game/blob/main/public/signup_player1.png)
-![signup_player2](https://github.com/simranbandhu/Hangman-Game/blob/main/public/signup_player2.png)
+![signup_player2](https://github.com/simranbandhu/Hangman-Game/blob/main/public/login_player1.png)
 
 - POST /auth/signup - Login
     - Request Body:
